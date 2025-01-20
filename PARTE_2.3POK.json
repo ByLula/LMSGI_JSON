@@ -1,0 +1,106 @@
+{
+
+"pokemons": [
+
+
+    {
+        "id": "0041",
+        "nombre": "Zubat",
+        "tipo": ["veneno","volador"],
+        "peso": "7.5 kg",
+        "altura": "0.8 m",
+        "estadisticas": {
+          "velocidad": 5,
+          "fortaleza": 3,
+          "precision": 4,
+          "resistencia": 3
+        },
+        "movimientos": [
+          {
+            "nombre": "Tornado",
+            "descripcion": "Tornado es un movimiento de tipo normal que causa daño y no tiene ningún efecto secundario.",
+            "potencia": 100,
+            "contacto": "No"
+          },
+          {
+            "nombre": "Veneno X",
+            "descripcion": "Casusa daño y tiene la probabilidad del 10% de envenenar al objetivo.",
+            "potencia": 140,
+            "contacto": "No"
+          }
+        ],
+        "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/67/latest/20230617053751/Zubat.png/300px-Zubat.png",
+        
+        "evoluciones": [
+          {
+            "id": "0042",
+            "nombre": "Golbat",
+            "nivel_requerido": 22
+          },
+           {
+            "id": "0169",
+            "nombre": "Crobat",
+            "nivel_requerido": "Amistad + nivel"
+          }
+        ]
+      },
+
+      
+
+      {
+        "id": "0056",
+        "nombre": "Mankey",
+        "tipo": ["lucha"],
+        "peso": "28.0 kg",
+        "altura": "0.5 m",
+        "estadisticas": {
+          "velocidad": 4,
+          "fortaleza": 3,
+          "precision": 2,
+          "resistencia": 3
+        },
+        "movimientos": [
+          {
+            "nombre": "Patada baja",
+            "descripcion": "Patada baja causa daño y tiene la probabilidad del 30% de amedrentar al objeivo.",
+            "potencia": 160,
+            "contacto": "No"
+          },
+          {
+            "nombre": "A bocajarro",
+            "descripcion": "A bocajarro causa daño y no tiene efectos secundarios, pero reducen un nivel la defensa y la defensa especial del usuario",
+            "potencia": 190,
+            "contacto": "No"
+          }
+        ],
+        "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/8b/latest/20230620060838/Mankey.png/300px-Mankey.png",
+        
+        "evoluciones": [
+          {
+            "id": "0057",
+            "nombre": "Primeape",
+            "nivel_requerido": 28          },
+           {
+            "id": "0979",
+            "nombre": "Annihilape",
+            "nivel_requerido": "Usar 20 veces puño furia + nivel"
+         
+
+        }
+
+
+
+        ]
+
+
+
+      }
+
+
+
+
+
+]
+
+
+}

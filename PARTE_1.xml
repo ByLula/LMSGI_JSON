@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<videoclub>      <!-- Representa la lista completa de películas disponibles en el videoclub -->
+
+
+<pelicula genero="thriller"/>         <!-- Cada elemento 'pelicula' contiene información de una película -->
+
+    <codigo>001</codigo>   <!-- Código único que identifica a la película -->
+    <titulo>puntos suspensivos</titulo> <!-- Título de la película -->
+    <Pais> españa </Pais>   <!-- País de origen de la película -->
+    <duracion minutos="90"/> <!-- Duración de la película en minutos -->
+       <año>2023</año> <!-- Año de estreno o producción -->
+    <disponibilidad>stock</disponibilidad>  <!-- Estado de disponibilidad (en stock o no) -->
+    <precio>   <!-- Información sobre el precio de alquiler de la película -->
+        <divisa>euros</divisa>   <!-- Divisa y monto  -->
+        <cuantia>3</cuantia>
+    </precio>
+    <imagen>https://pics.filmaffinity.com/puntos_suspensivos-800133577-mmed.jpg</imagen>
+    
+    <casting>   <!-- Lista de miembros que participaron en la producción de la película -->
+ 
+             <miembro>
+
+                <nombre>david marques</nombre>
+                <rol>director</rol>
+        
+            </miembro>
+            <miembro>
+
+                <nombre>jose coronado</nombre>
+                <rol>actor</rol>
+        
+            </miembro>
+            <miembro>
+
+                <nombre>candela carmona</nombre>
+                <rol>productora</rol>
+        
+            </miembro>
+            <miembro>
+
+                <nombre>santiago racaj</nombre>
+                <rol>fotografo</rol>
+        
+            </miembro>
+
+        
+    </casting>
+
+    
+</pelicula>
+
+
+<pelicula genero="accion"/>
+    <codigo>002</codigo>
+    <titulo>red de traicion</titulo>
+    <Pais> estados unidos </Pais>
+    <duracion minutos="90"/>
+     <año>2024</año>
+    <disponibilidad>stock</disponibilidad>
+
+    <precio>
+        <divisa>euros</divisa>
+        <cuantia>5</cuantia>
+    </precio>
+
+    <imagen>https://pics.filmaffinity.com/chief_of_station-888988009-mmed.jpg</imagen>
+
+
+     <casting>
+ 
+             <miembro>
+
+                <nombre>Jesse V. Johnson</nombre>
+                <rol>director</rol>
+        
+            </miembro>
+            <miembro>
+
+                <nombre>aaron eckhart</nombre>
+                <rol>actor</rol>
+        
+            </miembro>
+            <miembro>
+
+                <nombre>jonathan halperyn</nombre>
+                <rol>productor</rol>
+        
+            </miembro>
+            <miembro>
+
+                <nombre>joseph c.nemec III</nombre>
+                <rol>fotografo</rol>
+        
+            </miembro>
+
+        
+    </casting>
+
+    
+</pelicula>
+
+
+<pelicula genero="aventura"/>
+    <codigo>003</codigo>
+    <titulo>Ant-Man y la Avispa: Quantumania</titulo>
+    <Pais> estados unidos </Pais>
+    <duracion minutos="125"/>
+     <año>2024</año>
+    <disponibilidad>stock</disponibilidad>
+
+    <precio>
+        <divisa>euros</divisa>
+        <cuantia>5</cuantia>
+    </precio>
+
+    <imagen>https://www.ecartelera.com/carteles/16500/16598/003_p.webp</imagen>
+
+    <casting>
+ 
+             <miembro>
+
+                <nombre>peyton reed</nombre>
+                <rol>director</rol>
+        
+            </miembro>
+            <miembro>
+
+                <nombre>paul rudd</nombre>
+                <rol>actor</rol>
+        
+            </miembro>
+            <miembro>
+
+                <nombre>kevin feige</nombre>
+                <rol>productora</rol>
+        
+            </miembro>
+            <miembro>
+
+                <nombre>bill pope</nombre>
+                <rol>fotografo</rol>
+        
+            </miembro>
+
+        
+    </casting>
+
+  
+</pelicula>
+
+</videoclub>
